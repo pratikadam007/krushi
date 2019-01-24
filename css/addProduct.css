@@ -1,0 +1,30 @@
+
+        .add-product h2{
+            text-align: center;            
+            margin-bottom: 25px;
+        }
+        .button-submit{
+            text-align: center;
+            display: none;
+        }
+        .btn-danger{
+            width: 100px;
+            border: 1px solid black;
+        }
+        .btn-primary{
+            width: 100px;
+        }
+
+        table, td {
+          /* border: 1px solid black; */
+        }
+        .p-add tbody tr td{
+            padding: 0 11px;
+            width: -webkit-fill-available;
+
+        }
+
+        .tableRecord table tbody tr td{
+            padding: 0 11px;
+
+        }
