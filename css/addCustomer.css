@@ -1,0 +1,70 @@
+
+        .add-customer h2{
+            text-align: center;            
+            margin-bottom: 25px;
+        }
+        .add-customer a{
+            font-weight: bold;
+            font-size: 19px;
+        }
+        hr{
+            margin-top: 50px;
+        }
+        .add-customer .btn-success{
+            width: 100px;
+            margin-top: 10px;
+            font-size: 19px;
+            font-weight: bold;
+        }
+        .button-save{
+            text-align: center;
+            display: none;
+        }
+        
+        .button-update{
+            text-align: center;
+            display: none;
+        }
+        .addRecord{
+            width: 781px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .searchRecord{
+            width: 181px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn-danger{
+            width: 100px;
+            border: 1px solid black;
+            font-size: 19px;
+            font-weight: bold;
+        }
+        .btn-primary{
+            width: 100px;
+            font-size: 19px;
+            font-weight: bold;
+        }
+        
+
+        table, td {
+          /* border: 1px solid black; */
+        }
+        .c-add tbody tr td{
+            padding: 0 11px;
+            width: -webkit-fill-available;
+
+        }
+        .c-add .search{
+            display: inline;
+            width: 92%;
+        }
+
+        .addRecord table tbody tr td{
+            padding: 0 11px;
+        }
+
+        .searchRecord table tbody tr td{
+            padding: 0 11px;
+        }

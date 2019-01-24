@@ -2,9 +2,7 @@
 <html>
 
 <head>
-    <title>
-        <Header>
-    </title>
+    <title>Product</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,25 +22,40 @@
         <hr>
         <table align="center" class="p-add">
             <tr>
-                <td> <select type="product-type" placeholder="select Product Type" id="product_type" class="form-control"
-                        autofocus>
+                <td>
+                    <select type="product-type" placeholder="select Product Type" id="product_type" class="form-control" autofocus>
                         <option value="">Type</option>
                         <option value="pesticide">Pesticide</option>
                         <option value="seeds">Seeds</option>
                         <option value="fertilizer">Fertilizer</option>
                     </select>
                 </td>
-                <td><input class="form-control" type="text" id="billNo" placeholder="BillNO" required /></td>
-                <td> <input class="form-control" type="text" id="name" placeholder="Name" required="required"></td>
-                <td> <input class="form-control" type="number" id="qty" placeholder="Quantity" required="required"></td>
-                <td> <input class="form-control" type="text" id="price" placeholder="Price"></td>
-                <td> <input class="form-control" type="text" id="exDate" placeholder="Expiry" onfocus="(this.type='date')"></td>
-                <td> <input class="form-control" type="text" id="wholeSaler" placeholder="WholeSaler"></td>
-                <td> <button class="btn btn-primary" onclick="myFunction()">Add</button></td>
+                <td>
+                    <input class="form-control" type="text" id="billNo" placeholder="BillNO" required />
+                </td>
+                <td>
+                    <input class="form-control" type="text" id="name" placeholder="Name" required="required">
+                </td>
+                <td>
+                    <input class="form-control" type="number" id="qty" placeholder="Quantity" required="required">
+                </td>
+                <td>
+                    <input class="form-control" type="text" id="price" placeholder="Price">
+                </td>
+                <td>
+                    <input class="form-control" type="text" id="exDate" placeholder="Expiry" onfocus="(this.type='date')">
+                </td>
+                <td>
+                    <input class="form-control" type="text" id="wholeSaler" placeholder="WholeSaler">
+                </td>
+                <td>
+                    <button class="btn btn-primary" onclick="myFunction()">Add</button>
+                </td>
             </tr>
         </table>
-
-        <br><br><br>
+        <br>
+        <br>
+        <br>
         <div class="tableRecord">
             <table id="myTable" align="center">
             </table>
@@ -51,8 +64,7 @@
         <div class="button-submit" id="button-sub">
             <a href="#" class="btn btn-success">Submit</a>
         </div>
-
-
+    </div>
 </body>
 
 </html>

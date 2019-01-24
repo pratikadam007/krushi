@@ -2,28 +2,29 @@
 <html>
 
 <head>
-    <title>Wholesaler</title>
+    <title>Customer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/addWholesaler.css">
+    <link rel="stylesheet" href="css/addCustomer.css">
     <script src="js/form-validation.js"></script>
-    <script src="js/addWholesaler.js"></script>
+    <script src="js/addCustomer.js"></script>
 
 </head>
 
 <body>
 
-    <div class="container add-wholesaler">
-        <h2>Wholesaler Details</h2>
+    <div class="container add-customer">
+        <h2>Customer Details</h2>
         <div>
-            <table align="left" class="p-add">
+            <table align="left" class="c-add">
                 <tr>
-                    <td><span class="glyphicon glyphicon-search"><input class="search form-control" id="search" type="text" placeholder="search"></span></td>
-                    <td> <a href="#" class="btn btn-default search-btn" onclick="searchWholesaler()">Search</a></td>
+                    <td><span class="glyphicon glyphicon-search"><input class="search form-control" id="search" type="text"
+                                placeholder="search Customer"></span></td>
+                    <td> <a href="#" class="btn btn-default search-btn" onclick="searchCustomer()">Search</a></td>
                 </tr>
             </table>
         </div>
@@ -31,10 +32,11 @@
         <hr>
 
         <div>
-            <table align="center" class="p-add">
+            <table align="center" class="c-add">
                 <tr>
                     <td>
-                        <input class="form-control" type="text" id="name" placeholder="Name" required="required" autofocus>
+                        <input class="form-control" type="text" id="name" placeholder="Name" required="required"
+                            autofocus>
                     </td>
                     <td>
                         <input class="form-control" type="tel" id="mobile" placeholder="Mobile Number" required="required">
@@ -71,6 +73,7 @@
             <a href="#" class="btn btn-success">Save</a>
         </div>
     </div>
+
 </body>
 
 </html>
