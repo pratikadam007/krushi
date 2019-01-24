@@ -40,6 +40,7 @@ function myFunction() {
 
     if (w_name === '' || w_mobile === '' || w_address === '') {
         alert("Please fill all fields...!!!!!!");
+        document.getElementById("name").focus();
         return false;
     }
     
