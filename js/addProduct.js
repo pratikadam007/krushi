@@ -12,6 +12,7 @@
 
               if (w_product_type === '' || w_billNo === '' || w_name === '' || w_qty === '' || w_price === '' || w_exDate === '' || w_wholeSaler === '') {
                   alert("Please fill all fields...!!!!!!");
+                  document.getElementById("product_type").focus();
                   return false;
               }
 
