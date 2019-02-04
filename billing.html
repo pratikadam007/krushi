@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Customer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/billing.css">
+    <script src="js/form-validation.js"></script>
+    <script src="js/billing.js"></script>
+
+</head>
+
+<body>
+    <div class="data-wrapper">
+        <div class="data-input">
+            <div class="info-date">
+                <span class="bill-no">
+                    <label>Bill No: </label>
+                    <input class="form-control bill-no" type="text" value="Cust5001" readonly />
+                </span>
+                <span class="date">
+                    <label>Date:</label>
+                    <input class="form-control date-input" type="text" value="02/02/2019" readonly />
+                </span>
+            </div>
+            <div class="info-cust">
+                <span class="customer-details">
+                    <label>Name:</label>
+                    <input class="form-control cust-name" type="text" value="Manoj Ucchekar" />
+                    <label>Mobile:</label>
+                    <input class="form-control  cust-mobile" type="text" value="9049348222" />
+                    <label>Address:</label>
+                    <input class="form-control cust-address" type="text" value="Bamani, Tq: Biloli, Dist Nanded, Maharashtra." />
+                </span>
+            </div>
+            <div class="info-product">
+                <span class="product-details">
+                    <label>Product-Type</label>
+                    <select type="product-type" placeholder="Type" id="product_type" class="form-control" autofocus>
+                        <option value="">Select</option>
+                        <option value="pesticide">Pesticide</option>
+                        <option value="seeds">Seeds</option>
+                        <option value="fertilizer">Fertilizer</option>
+                    </select>
+
+                    <label>Product-Name</label>
+                    <input class="form-control prod-name" type="text" value="Roger" />
+
+                    <label>Product-Qty</label>
+                    <input class="form-control prod-qty" type="number" value="1" />
+
+                    <button class="btn btn-primary add-product">Add Product</button>
+                </span>
+            </div>
+        </div>
+        <div class="data-build">
+            <table class="table table-hover" id="all-product">
+                <thead>
+                    <tr>
+                        <th>Product Type</th>
+                        <th>Product-Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Collective Price</th>
+                    </tr>
+                </thead>
+                <tbody class="table-body">
+                </tbody>
+            </table>
+        </div>
+        <div class="data-submit">
+            <span class="total-amt">
+                <label>Total: </label>
+                <input class="total form-control" value="1000Rs" type="text" readonly />
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>

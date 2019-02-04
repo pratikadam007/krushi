@@ -1,0 +1,99 @@
+.data-wrapper{
+    font-size: 18px;
+}
+label{
+    margin-top: 2px;
+    font-weight: normal;
+}
+hr{
+    color: red;
+}
+ .data-wrapper .data-input{
+    width: 100%;
+    height: 150px;    
+    border-bottom: 2px solid red;
+}
+.data-wrapper .data-input  .form-control{
+    display: inline;    
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+
+}
+ .data-wrapper .data-input .info-date{
+     height: 50px;
+     padding: 5px 30px;
+}
+.data-wrapper .data-input .info-date .date{
+    float: right;
+}
+
+.data-wrapper .data-input .info-cust .form-control{
+    width: 200px;
+    text-align: left;
+    margin-right: 15px;
+}
+.data-wrapper .data-input .info-cust .cust-mobile{
+    width: 130px;
+}
+.data-wrapper .data-input .info-cust .cust-address{
+    width: 430px;
+}
+ .data-wrapper .data-input .info-cust{
+     height: 50px;
+     padding: 5px 30px;
+}
+ .data-wrapper .data-input .info-product{
+     height: 50px;
+     padding: 5px 30px;
+     
+}
+.data-wrapper .data-input .info-product .product-details .form-control{
+    width: 130px;
+    margin-right: 15px;
+}
+.data-wrapper .data-input .info-product .product-details .btn-primary{
+    font-weight: bold;
+
+    font-size: 17px;
+}
+ .data-wrapper .data-build{
+    width: 100%;
+    min-height: 300px;
+    border-top:  1px solid #dbdbdb;
+    padding: 5px 30px;    
+    margin-top: 6px;
+}
+.data-wrapper .data-build .table-body {
+    border-bottom: 1px solid #dbdbdb;
+
+}
+
+ .data-wrapper .data-submit{
+     display: none;
+    width: 100%;
+    height: 60px;
+    background-color: antiquewhite;
+    position: relative;
+}
+.data-wrapper .data-submit h2{  
+    float: left;
+    margin: 0;
+}
+
+.data-wrapper .data-submit .total-amt{
+    position: absolute;
+    top: 15px;
+    right: 200px;
+}
+.data-wrapper .data-submit .total-amt label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.data-wrapper .data-submit .form-control{
+    width: 200px;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+
+}
